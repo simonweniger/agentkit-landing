@@ -41,7 +41,7 @@ export function Intro() {
     <>
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
         Build, deploy, and manage LLM-agents {' '}
-        <span className="text-orange-400">on  platforms.</span>
+        <span className="text-purple-400">on  platforms.</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
         AgentKit is a powerful tool that simplifies the configuration and deployment of LLM Agents to production all via Swift. It provides a range of features such as built in memory and document retrieval via vector dbs, powerful tools, webhooks, cron jobs etc.

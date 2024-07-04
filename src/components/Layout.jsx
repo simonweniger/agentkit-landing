@@ -20,7 +20,7 @@ function Timeline() {
           <pattern id={id} width="6" height="8" patternUnits="userSpaceOnUse">
             <path
               d="M0 0H6M0 8H6"
-              className="stroke-orange-900/10 dark:stroke-white/10 xl:stroke-white/10"
+              className="stroke-purple-900/10 dark:stroke-white/10 xl:stroke-white/10"
               fill="none"
             />
           </pattern>
@@ -47,14 +47,15 @@ function Glow() {
       >
         <defs>
           <radialGradient id={`${id}-desktop`} cx="100%">
-            <stop offset="0%" stopColor="#FF96004D" />
-            <stop offset="53.95%" stopColor="#FF960013" />
-            <stop offset="100%" stopColor="#FF960000" />
+            <stop offset="0%" stopColor="#C084FC" />
+            <stop offset="10%" stopColor="#C084FC" />
+            <stop offset="53.95%" stopColor="#80008000" />
+            <stop offset="100%" stopColor="#80008000" />
           </radialGradient>
           <radialGradient id={`${id}-mobile`} cy="100%">
-            <stop offset="0%" stopColor="#FF96004D" />
-            <stop offset="53.95%" stopColor="#FF960013" />
-            <stop offset="100%" stopColor="#FF960000" />
+            <stop offset="0%" stopColor="#80008000" />
+            <stop offset="53.95%" stopColor="#80008000" />
+            <stop offset="100%" stopColor="#80008000" />
           </radialGradient>
         </defs>
         <rect
@@ -83,7 +84,7 @@ function FixedSidebar({ main, footer }) {
         <div className="mx-auto max-w-lg lg:mx-0 lg:flex lg:max-w-lg lg:flex-col lg:before:flex-1">
           <div className="pb-16 pt-20 sm:pb-20 sm:pt-32 lg:pt-12">
             <div className="relative">
-              {/*<StarField />*/}
+              <StarField />
               {main}
             </div>
           </div>
