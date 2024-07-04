@@ -26,7 +26,7 @@ An agent is a program or system that is designed to perform a specific task or s
 
 ## Add Documents to Agents {{ date: 'Documents' }}
 
-Superagent allows users to do question answering over documents by attaching a Document to an Agent. Documents are files, such as PDF, TXT, images, Markdown etc. that can be ingested by passing a publicly available URL to the Superagent API. Superagent splits these documents into smaller chunks and stores them in a vector database for use downstream. This approach has some downsides when working with tabular data. We are looking into how to best approach this problem. This is a community-made SwiftSDK for the Superagen LLM Framework. You need to have a superagent API Key in order to use the SDK.
+AgentKit allows users to do question answering over documents by attaching a Document to an Agent. Documents are files, such as PDF, TXT, images, Markdown etc. that can be ingested by passing a publicly available URL to the AgentKit API. AgentKit splits these documents into smaller chunks and stores them in a vector database for use downstream. This approach has some downsides when working with tabular data. We are looking into how to best approach this problem. This is a community-made SwiftSDK for the Superagen LLM Framework. You need to have a superagent API Key in order to use the SDK.
 
 ### <SparkleIcon /> What Documents can an Agent use?
 
@@ -41,7 +41,7 @@ Superagent allows users to do question answering over documents by attaching a D
 
 ## Custom Prompt Tamplates {{ date: 'Prompts' }}
 
-Superagent allows users to configure their Agents using prompts. A prompt is piece of text that gives context to the LLM. It can contain instructions on how the Agent should act, input variables used for injecting data into the prompt. Common examples of input_variables are human_input, question and chat_history for in context memory.
+AgentKit allows users to configure their Agents using prompts. A prompt is piece of text that gives context to the LLM. It can contain instructions on how the Agent should act, input variables used for injecting data into the prompt. Common examples of input_variables are human_input, question and chat_history for in context memory.
 
 ### <SparkleIcon /> What you can do with Prompts?
 
@@ -56,7 +56,7 @@ Superagent allows users to configure their Agents using prompts. A prompt is pie
 
 ## Extend the Agent Capabililties {{  date: 'Tools' }}
 
-This guide will get you all set up and ready to use Superagent Tools. Superagent allows users to configure their Agents using tools. A tool is a Api or piece of code that helps the LLM to validate its response. It can be an api that Superagent calls to get real time information or a Zapier integration. Tools are helpfull to give LLMs access to real time and real world data while also reducing haluzination
+This guide will get you all set up and ready to use AgentKit Tools. AgentKit allows users to configure their Agents using tools. A tool is a Api or piece of code that helps the LLM to validate its response. It can be an api that AgentKit calls to get real time information or a Zapier integration. Tools are helpfull to give LLMs access to real time and real world data while also reducing haluzination
 
 ### <SparkleIcon /> Available Tools are?
 

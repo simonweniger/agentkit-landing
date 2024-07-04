@@ -44,7 +44,7 @@ export function Intro() {
         <span className="text-orange-400">on  platforms.</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        Superagent is a powerful tool that simplifies the configuration and deployment of LLM Agents to production all via Swift. It provides a range of features such as built in memory and document retrieval via vector dbs, powerful tools, webhooks, cron jobs etc.
+        AgentKit is a powerful tool that simplifies the configuration and deployment of LLM Agents to production all via Swift. It provides a range of features such as built in memory and document retrieval via vector dbs, powerful tools, webhooks, cron jobs etc.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
@@ -55,7 +55,7 @@ export function Intro() {
           GitHub
         </IconLink>
         <IconLink href="https://superagent.sh" icon={SparkleIcon} className="flex-none">
-          Superagent
+          AgentKit
         </IconLink>
       </div>
     </>
