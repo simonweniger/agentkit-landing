@@ -48,15 +48,18 @@ export function Intro() {
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
+        {/* 
         <IconLink href="https://superagent-swift-docs.vercel.app/" icon={BookIcon} className="flex-none">
           Documentation
         </IconLink>
-        <IconLink href="https://github.com/simonweniger/superagent-swift" icon={GitHubIcon} className="flex-none">
+       
+        <IconLink href="https://github.com/simonweniger/agentkit-swift" icon={GitHubIcon} className="flex-none">
           GitHub
         </IconLink>
-        <IconLink href="https://superagent.sh" icon={SparkleIcon} className="flex-none">
+        <IconLink href="https://agentkit.io" icon={SparkleIcon} className="flex-none">
           AgentKit
         </IconLink>
+         */}
       </div>
     </>
   )

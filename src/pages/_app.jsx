@@ -18,14 +18,14 @@ export default function App({ Component, pageProps }) {
           content="Build, deploy, and manage LLM-powered agents on  platforms"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://superagent-swift.vercel.app" />
+        <meta property="og:url" content="https://agentkit.io" />
         <meta property="og:title" content="AgentKit" />
         <meta property="og:description" content="Build, deploy, and manage LLM-powered agents on  platforms" />
         <meta property="og:image" content="/create-agent.jpeg" />
 
         {/* Twitter Card tags */}
-        <meta name="twitter:card" content="This is a community-made SwiftSDK for the Superagen LLM Framework. You need to have a superagent API Key in order to use the SDK. To get your API key head over to superagent.sh or fork the main repo and self-host it." />
-        <meta name="twitter:url" content="https://superagent-swift.vercel.app" />
+        <meta name="twitter:card" content="Build, deploy, and manage LLM-powered agents on  platforms" />
+        <meta name="twitter:url" content="https://agentkit.io" />
         <meta name="twitter:title" content="AgentKit" />
         <meta name="twitter:description" content="Build, deploy, and manage LLM-powered agents on  platforms" />
         <meta name="twitter:image" content="/create-agent.jpeg" />
