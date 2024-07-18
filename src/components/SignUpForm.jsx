@@ -20,8 +20,8 @@ export function SignUpForm() {
         Get updates
       </Button>
       <p></p>
-      <div className="absolute inset-0 -z-10 rounded-lg transition peer-focus:ring-4 peer-focus:ring-purple-300/15" />
-      <div className="absolute inset-0 -z-10 rounded-lg bg-white/2.5 ring-1 ring-white/15 transition peer-focus:ring-purple-300" />
+      <div className="absolute inset-0 -z-10 rounded-lg transition peer-focus:ring-4 peer-focus:ring-orange-300/15" />
+      <div className="absolute inset-0 -z-10 rounded-lg bg-white/2.5 ring-1 ring-white/15 transition peer-focus:ring-orange-300" />
       <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="Please leave the following three fields empty">
                     <label htmlFor="b_name">Name: </label>
                     <input type="text" name="b_name" tabIndex="-1" value="" placeholder="Freddie" id="b_name"/>
